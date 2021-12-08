@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ecole Ri7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Jeu de mémoire</title>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+  </head>
+  <body>
+    <main id="container">
+      <div class="controls">
+        <label>NB de ligne</label>
+        <input type="text" id="nb_row" value="4" />
+        <label>NB de colonne</label>
+        <input type="text" id="nb_col" value="4" />
+      </div>
+      <table id="board"></table>
+      <button id="new_game_button">Nouvelle partie</button>
+    </main>
+
+    <script type="text/javascript" src="app.js"></script>
+
+    <script type="text/javascript">
+      (function () {
+        new_game();
+      })();
+    </script>
+  </body>
+</html>

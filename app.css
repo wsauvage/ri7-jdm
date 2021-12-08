@@ -1,0 +1,26 @@
+#container {
+  max-width: 2046px;
+  margin: auto;
+  text-align: center;
+}
+
+#board {
+  margin: auto;
+  text-align: center;
+}
+
+#new_game_button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.controls {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
